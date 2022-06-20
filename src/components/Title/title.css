@@ -1,0 +1,26 @@
+.title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    left: 88px;
+    top: 148px;
+}
+
+@media (max-width:390px) {
+    .title{
+        width: 90%;
+        height: 80px;
+        font-size: 23px;
+        line-height: 30px;
+        left: 20px;
+        top: 40px;
+    }
+}

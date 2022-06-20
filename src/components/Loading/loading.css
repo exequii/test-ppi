@@ -1,0 +1,40 @@
+.loadingContainer{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading{
+    color: rgb(87, 162, 185);
+    font-weight: bold;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    width: 50%;
+    padding: 5%;
+}
+
+.imgLoading{
+    width: 20%;
+}
+
+@media (max-width:390px){
+    .loadingContainer{
+        width: 95%;
+        height: 50%;
+    }
+
+    .imgLoading{
+        width: 15%;
+    }
+
+    .loading{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}

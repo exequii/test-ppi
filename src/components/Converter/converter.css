@@ -1,0 +1,163 @@
+*{
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
+.convertContainer{
+    height: 522px;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 234, 243, 0.7);
+    box-shadow: 0px 0px 12px rgba(140, 152, 164, 0.5);
+    border-radius: 8px;
+    z-index: 5;
+    display: flex;
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
+.formConverter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+    width: 50%;
+}
+
+.formConverter label{
+    text-align: start !important;
+}
+
+.formConverter input{
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    width: 68%;
+    height: 40px;
+}
+
+.formConverter select{
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    width: 70%;
+    height: 40px;
+}
+
+
+.resultConvert{
+    justify-content: space-evenly;
+    text-align: start !important;
+    padding: 5%;
+    width: 50%;
+}
+
+.convertFrom{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #757575;
+}
+
+.convertTo{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #323232;
+}
+
+.coinValue{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #757575;
+}
+
+.input{
+    text-align: end;
+    padding-right: 10px;
+}
+
+.errorContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error{
+    color: rgb(185, 87, 87);
+    font-weight: bold;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgb(235, 96, 78);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 390px){
+
+    
+    .convertContainer{
+        flex-direction: column;
+        height: 559px;
+    }
+
+    .formConverter{
+        width: 90%;
+        height: 50%;
+    }
+
+    .formConverter input{
+        width: 98%;
+    }
+
+    .formConverter select{
+        width: 100%;
+    }
+
+    .resultConvert{
+        width: 90%;
+        height: 50%;
+    }
+
+    .convertFrom{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .convertTo{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .coinValue{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .errorContainer{
+        height: 100%;
+    }
+
+    .error{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
