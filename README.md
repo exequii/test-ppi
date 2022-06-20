@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App].
 
+### `npm install`
+
+Installation of dependencies. 
+
 ### `npm run start`
 
 Runs the app in the development mode.\
